@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400");
+
+body {
+  font-family: "Roboto" !important;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.text-small {
+  font-size: 11px;
+}
+
+.text-medium {
+  font-size: 12px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.container.nopad {
+  padding-top: 0px;
+}
+
+footer {
+  font-size: 12px;
+}
+
+.navbar-brand i {
+  margin-right: 10px;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-brand i:hover {
+  background: #777;
+}
+
+.navbar-brand .brand,
+.navbar-brand .brand:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.block {
+  display: block;
+}
+
+.item-row {
+  padding: 8px;
+  color: #777;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 1px;
+}
+
+.full-width-container {
+  background: #f9f9f9;
+  padding: 20px;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  font-weight: 300;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.btn {
+  border-radius: 0px !important;
+  font-weight: 300 !important;
+  letter-spacing: 2px;
+}
+
+.btn-secondary {
+  background: #353535 !important;
+}
+
+.btn-primary {
+  background: #11aae0 !important;
+  color: #000 !important;
+}
